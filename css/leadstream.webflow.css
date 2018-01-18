@@ -985,10 +985,7 @@ figcaption {
 }
 
 .div-block {
-  position: absolute;
-  left: 0px;
-  top: 602px;
-  right: 0px;
+  position: relative;
   z-index: 10;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1017,6 +1014,8 @@ figcaption {
   align-items: center;
   background-color: #fff;
   box-shadow: 5px 5px 21px -2px rgba(0, 0, 0, .5);
+  margin-top: -50px;
+
 }
 
 .div-block.backside {
@@ -1197,7 +1196,7 @@ figcaption {
 .row-2 {
   position: absolute;
   left: 0px;
-  top: 33vh;
+  top: 55%;
   right: 0px;
   bottom: 0px;
   display: block;
@@ -1965,6 +1964,7 @@ figcaption {
 
 .section1 {
   position: relative;
+  padding-top: 30px;
   padding-bottom: 100px;
   background-color: #fff;
 }
