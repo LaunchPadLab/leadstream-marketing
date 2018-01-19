@@ -1558,6 +1558,7 @@ figcaption {
   background-position: 50% 50%;
   background-size: 600px;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 @media (max-width: 767px) {
@@ -1677,6 +1678,18 @@ figcaption {
   .div-block-9 .column-15, .div-block-9 .column-14, .div-block-9 .column-16, .div-block-9 .column-17.w-col{
     display: none !important;
   }
+
+  .div-block-9 .logo{
+    width: 100px;
+  }
+}
+
+.div-block-9 .logo{
+  position: absolute;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 }
 
 .column-12 {
